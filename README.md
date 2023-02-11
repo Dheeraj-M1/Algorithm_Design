@@ -1,1 +1,4 @@
 # Algorithm_Design
+The code imports the csv and pandas library, as well as the numpy and random libraries. Then, it reads a file called "Amazon0302.txt" and creates a dataframe, with the first two columns labeled "source" and "target". A third column "weight" is added to the dataframe with random values in the range of 1 to 100. The dataframe is then saved to a file named "Edge_weight.txt".
+
+The code then defines a function to implement Dijkstra's algorithm and uses this to find the shortest path between all unique "target" nodes and a specific source node (2). The data is read from a file named "Edge_weight.txt" and stored in a Pandas dataframe. The data is then manipulated to create a dictionary of edges with their corresponding weights, which is used in the implementation of Dijkstra's algorithm. The shortest path and the distances between nodes are calculated and stored in a list called "a". The code prints the shortest path for each unique "target" node.
